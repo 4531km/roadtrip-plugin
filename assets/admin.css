@@ -1,0 +1,41 @@
+.miz-filter {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.miz-grid {
+    list-style: none;
+}
+
+.miz-grid li {
+    display: inline-block;
+    background: #FFF;
+    width: 22%;
+    max-width: 190px;
+    border: 1px solid #DDD;
+    margin: 10px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.miz-grid img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.miz-grid .meta {
+    color: #999;
+    font-size: 11px;
+    padding-top: 10px;
+    border-top: 1px solid #DDD;
+}
+
+#map-canvas {
+    height: 100%;
+    min-height: 600px;
+}
+
+.marker-window img {
+    display: block;
+}
+
