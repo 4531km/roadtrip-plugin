@@ -10,6 +10,9 @@ Author URI:
 
 require_once('admin/init.php');
 
+require_once('output/map.php');
+require_once('output/timeline.php');
+
 function miz_get_oldest_update() {
   $mizusers = get_option('miz-menu-users');
   uasort($mizusers, 'miz_determine_oldest_update');
